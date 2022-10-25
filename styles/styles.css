@@ -18,23 +18,23 @@
     width: 4.6875rem;
     height: 2.9375rem;
     
-    margin-bottom: 720px;
-    margin-left: 11px;
-    margin-right: 1280px;
-    margin-top: -12px
+    margin-bottom: 45rem;
+    margin-left: 0.6875rem;
+    margin-right: 80rem;
+    margin-top: -0.75rem
 }
 
 
 
 .logo {
-    margin-left: 91px;
-    margin-right: 1160px;
-    margin-top: 25px;
-    margin-bottom: 29px;
+    margin-left: 5.6875rem;
+    margin-right: 72.5rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.8125rem;
 
     color: white;
     list-style: none;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -46,7 +46,7 @@ a {
     color: white;
 
     list-style: none;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
