@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=================== HEADER ==========================*/
+#header {
+    position: absolute;
+    width: 120rem;
+    height: 5rem;
+
+    background: linear-gradient(90deg, #4E5CBC 22%, rgba(67, 114, 196, 0.97) 79.28%);
+}
+
+.topo img {
+    position: absolute;
+    width: 4.6875rem;
+    height: 2.9375rem;
+    
+    margin-bottom: 720px;
+    margin-left: 11px;
+    margin-right: 1280px;
+    margin-top: -12px
+}
+
+
+
+.logo {
+    margin-left: 91px;
+    margin-right: 1160px;
+    margin-top: 25px;
+    margin-bottom: 29px;
+
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+
+    color: white;
+
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.agendamento{
+    margin-left: 903px;
+    margin-right: 343px;
+    margin-top: -45px;
+    margin-bottom: 32px;
+}
+
+.agendamento :hover {
+    color: #2BDDDD;
+}
+
+.doencas {
+    margin-left: 1033px;
+    margin-right: 263px;
+    margin-top: -52px;
+    margin-bottom: 36px;
+}
+
+.doencas :hover {
+    color: #2BDDDD;
+}
+
+.sobre {
+    margin-left: 1113px;
+    margin-right: 172px;
+    margin-top: -57px;
+    margin-bottom: 36px;
+}
+
+.sobre :hover{
+    color: #2BDDDD;
+}
+
+.botao {
+    margin-left: 1211px;
+    margin-right: 95px;
+    margin-top: -56px;
+    margin-bottom: 27px;
+    width: 60px;
+    height: 24px;
+    float: left;
+    
+    text-decoration: none;
+    background-color: #17388C;
+    border-color: #17388C;
+    cursor: pointer;
+   
+    border: none;
+    justify-content: center;
+
+}
+
+.botao :hover{
+    background-color: #3e58b4;
+    border-color: #3e58b4;
+    border: none;
+    width: 60px;
+    height: 25px;
+
+    text-decoration: none;
+    float: left;
+}
+
+
