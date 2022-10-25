@@ -53,10 +53,10 @@ a {
 }
 
 .agendamento{
-    margin-left: 903px;
+    margin-left: 56.4375rem;
     margin-right: 343px;
-    margin-top: -45px;
-    margin-bottom: 32px;
+    margin-top: -2.8125rem;
+    margin-bottom: 2rem;
 }
 
 .agendamento :hover {
@@ -64,10 +64,10 @@ a {
 }
 
 .doencas {
-    margin-left: 1033px;
-    margin-right: 263px;
-    margin-top: -52px;
-    margin-bottom: 36px;
+    margin-left: 64.5625rem;
+    margin-right: 16.4375rem;
+    margin-top: -3.25rem;
+    margin-bottom: 2.25rem;
 }
 
 .doencas :hover {
@@ -75,10 +75,10 @@ a {
 }
 
 .sobre {
-    margin-left: 1113px;
-    margin-right: 172px;
-    margin-top: -57px;
-    margin-bottom: 36px;
+    margin-left: 69.5625rem;
+    margin-right: 10.75rem;
+    margin-top: -3.5625rem;
+    margin-bottom: 2.25rem;
 }
 
 .sobre :hover{
@@ -86,12 +86,12 @@ a {
 }
 
 .botao {
-    margin-left: 1211px;
-    margin-right: 95px;
-    margin-top: -56px;
-    margin-bottom: 27px;
-    width: 60px;
-    height: 24px;
+    margin-left: 75.6875rem;
+    margin-right: 5.9375rem;
+    margin-top: -3.5rem;
+    margin-bottom: 1.6875rem;
+    width: 3.75rem;
+    height: 1.5rem;
     float: left;
     
     text-decoration: none;
@@ -108,11 +108,13 @@ a {
     background-color: #3e58b4;
     border-color: #3e58b4;
     border: none;
-    width: 60px;
-    height: 25px;
+    width: 3.75rem;
+    height: 1.5rem;
 
+    text-align: center;
     text-decoration: none;
-    float: left;
+    justify-content: center;
+    display: inline-block;
 }
 
 
