@@ -7,9 +7,9 @@
 /*=================== HEADER ==========================*/
 #header {
     position: absolute;
-    width: 85.375rem;
+    width: 1366px;
     height: 5rem;
-
+    
     background: linear-gradient(90deg, #4E5CBC 22%, rgba(67, 114, 196, 0.97) 79.28%);
 }
 
