@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=================== HEADER ==========================*/
+#header {
+    position: absolute;
+    width: 85.375rem;
+    height: 5rem;
+
+    background: linear-gradient(90deg, #4E5CBC 22%, rgba(67, 114, 196, 0.97) 79.28%);
+}
+
+.topo img {
+    position: absolute;
+    width: 4.6875rem;
+    height: 2.9375rem;
+    
+    margin-bottom: 45rem;
+    margin-left: 0.6875rem;
+    margin-right: 80rem;
+    margin-top: -0.75rem
+}
+
+
+
+.logo {
+    margin-left: 5.6875rem;
+    margin-right: 72.5rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.8125rem;
+
+    color: white;
+    list-style: none;
+    font: 700 0.9375rem 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+a.home {
+    text-decoration: none;
+}
+
+nav {
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font: 700 1rem 'Open Sans', sans-serif;
+    text-align: center;
+    transition: color 0.2s;
+    position: relative;
+}
+    
+nav ul li{
+    list-style: none;
+    margin-right: 80px;
+    display: inline;
+    float: left;
+}
+
+nav ul li a:hover {
+    color: #4D61BE;
+    
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #4D61BE;
+    
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    transition: 0.2s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav ul li {
+    position: relative;
+}
+nav ul li:hover{
+    content: '';
+    background: white;
+
+    position: absolute;
+    padding-top: 3px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 9px;
+}
+
+nav ul li.outros:hover {
+    position: absolute !important;
+    width: 11%;
+}
+
+nav ul li.somos:hover{
+    position: absolute !important;
+    width: 9.8%;
+}
+
+nav ul li.missao:hover{
+    position: absolute !important;
+    width: 11.4%;
+}
+
+.hiv {
+    margin-top: -49.8px;
+    margin-left: 324px;
+    margin-right: 970px;
+}
+
+.malaria {
+    margin-left: 476px;
+    margin-right: 828px;
+    margin-top: -49.8px;
+}
+
+.tuberculose {
+    margin-top: -49.8px;
+    margin-left: 618px;
+    margin-right: 650px
+}
+
+.outros {
+    margin-top: -49.8px;
+    margin-left:  796px;
+    margin-right: 443px;
+}
+
+.somos {
+    margin-top: -49.8px;
+    margin-left: 1003px;
+    margin-right: 250px;
+}
+
+.missao {
+    margin-top: -49.8px;
+    margin-left: 1196px;
+    margin-right:  37px;
+}
+
+
+
+
