@@ -28,14 +28,12 @@
 
 .logo {
     margin-left: 5.6875rem;
-    margin-right: 72.5rem;
+    margin-right: 10rem;
     margin-top: 1.5625rem;
     margin-bottom: 1.8125rem;
 
     color: white;
-    list-style: none;
     font: 700 0.9375rem 'Open Sans', sans-serif;
-    text-decoration: none;
 }
 
 a.home {
@@ -114,39 +112,38 @@ nav ul li.missao:hover{
 }
 
 .hiv {
-    margin-top: -3.1125rem;
-    margin-left: 20.25rem;
+    margin-top: -49.0px;
+    margin-left: 290px;
     margin-right: 51.75rem;
 }
 
 .malaria {
-    margin-left: 29.75rem;
-    margin-right: 828px;
+    margin-left: 442px;
+    margin-right: 1004px;
     margin-top: -3.1125rem;
 }
 
 .tuberculose {
     margin-top: -3.1125rem;
-    margin-left: 38.625rem;
-    margin-right: 40.625rem;
+    margin-left: 584px;
+    margin-right: 684px;
 }
 
 .outros {
     margin-top: -3.1125rem;
-    margin-left:  49.75rem;
-    margin-right: 27.6875rem;
+    margin-left:  762px;
 }
 
 .somos {
     margin-top: -3.1125rem;
-    margin-left: 62.6875rem;
-    margin-right: 15.625rem;
+    margin-left: 969px;
+    
 }
 
 .missao {
     margin-top: -3.1125rem;
-    margin-left: 74.75rem;
-    margin-right:  2.3125rem;
+    margin-left: 1162px;
+    margin-right: -900px;
 }
 
 
