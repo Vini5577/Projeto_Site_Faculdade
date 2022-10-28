@@ -25,8 +25,6 @@
     margin-top: -0.75rem
 }
 
-
-
 .logo {
     margin-left: 5.6875rem;
     margin-right: 10rem;
@@ -41,11 +39,12 @@ a.home {
     text-decoration: none;
 }
 
+/*=================== NAVIGATION ==========================*/
 nav {
     align-items: center;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
     font: 700 1rem 'Open Sans', sans-serif;
@@ -54,7 +53,7 @@ nav ul li a{
     position: relative;
 }
     
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 80px;
     display: inline;
@@ -86,7 +85,7 @@ nav ul li a:hover::after {
 nav ul li {
     position: relative;
 }
-nav ul li:hover{
+nav ul li:hover {
     content: '';
     background: white;
 
@@ -97,17 +96,30 @@ nav ul li:hover{
     padding-right: 0.5625rem;
 }
 
+nav ul li.tuberculose a {
+    color: #4D61BE;
+}
+
+nav ul li.tuberculose {
+    background: white;
+    
+    position: absolute;
+    
+    padding-left: 0.625rem;
+    padding-right: 0.5625rem;
+}
+
 nav ul li.outros:hover {
     position: absolute !important;
     width: 11%;
 }
 
-nav ul li.somos:hover{
+nav ul li.somos:hover {
     position: absolute !important;
     width: 9.8%;
 }
 
-nav ul li.missao:hover{
+nav ul li.missao:hover {
     position: absolute !important;
     width: 11.4%;
 }
