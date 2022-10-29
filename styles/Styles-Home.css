@@ -84,7 +84,7 @@ ul li a::after {
 
 
 ul li a:hover::after {
-    opacity: 50%;
+    opacity: 100%;
 }
 
 .home {
