@@ -4,73 +4,77 @@
     box-sizing: border-box;
 }
 
+/*=================== FONTS ==========================*/
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Medium.otf) format('opentype');
+}
+
 /*=================== HEADER ==========================*/
 #header {
     position: absolute;
     width: 100%;
     height: 5rem;
     
-    background: linear-gradient(90deg, #4E5CBC 22%, rgba(67, 114, 196, 0.97) 79.28%);
+    background: white;
 }
 
-.topo img {
-    position: absolute;
-    width: 4.6875rem;
-    height: 2.9375rem;
-    
-    margin-bottom: 45rem;
-    margin-left: 0.6875rem;
-    margin-right: 80rem;
-    margin-top: -0.75rem
-}
-
-
-
-.logo {
-    margin-left: 5.6875rem;
-    margin-right: 10rem;
-    margin-top: 1.5625rem;
-    margin-bottom: 1.8125rem;
-
-    color: white;
-    font: 700 0.9375rem 'Open Sans', sans-serif;
-}
-
-a.home {
+#header .topo a{
     text-decoration: none;
+    color: black;
+}
+
+.logo img{
+    width: 68px;
+    height: 43px;
+    margin-top: 18px;
+    margin-left: 39px; 
+    margin-bottom: 19px;
+}
+
+.menu {
+    margin-right: 114px;
 }
 
 nav {
     align-items: center;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font: 700 1rem 'Open Sans', sans-serif;
-    text-align: center;
-    transition: color 0.2s;
-    position: relative;
-}
-    
 nav ul li{
     list-style: none;
-    margin-right: 80px;
-    display: inline;
-    float: left;
+    margin-right: 114px;
+
+    font: 400 19px 'regular', sans-serif;
+
+}
+
+nav ul li a{
+    color: black;
+    position: relative;
+    display: inline-block;
+    
 }
 
 nav ul li a:hover {
-    color: #4D61BE;
     
+    font: 500 19px 'medium', sans-serif;
+    transition: 0.2s;
+
 }
 
-nav ul li a::after {
+ul li a::after {
     content: '';
-    width: 0%;
-    height: 2px;
-    background: #4D61BE;
-    
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    opacity: 0%;
+
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -78,79 +82,48 @@ nav ul li a::after {
     transition: 0.2s;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
+
+ul li a:hover::after {
+    opacity: 50%;
 }
 
-nav ul li {
-    position: relative;
-}
-nav ul li:hover{
-    content: '';
-    background: white;
+.home {
+    margin-left: 328px;
+    margin-top: -50px;
+    margin-bottom: 24px;
+} 
 
-    position: absolute;
-    padding-top: 0.1875rem;
-    padding-bottom: 0.6875rem;
-    padding-left: 0.625rem;
-    padding-right: 0.5625rem;
-}
-
-nav ul li.outros:hover {
-    position: absolute !important;
-    width: 11%;
-}
-
-nav ul li.somos:hover{
-    position: absolute !important;
-    width: 9.8%;
-}
-
-nav ul li.missao:hover{
-    position: absolute !important;
-    width: 11.4%;
-}
-
-.hiv {
-    margin-top: -49.0px;
-    margin-left: 290px;
-    margin-right: 51.75rem;
-}
-
-.malaria {
-    margin-left: 442px;
-    margin-right: 1004px;
-    margin-top: -3.1125rem;
-}
-
-.tuberculose {
-    margin-top: -3.1125rem;
-    margin-left: 584px;
-    margin-right: 684px;
-}
-
-.outros {
-    margin-top: -3.1125rem;
-    margin-left:  762px;
-}
-
-.somos {
-    margin-top: -3.1125rem;
-    margin-left: 969px;
-    
+.doenca {
+    margin-left: 513px;
+    margin-top: -50px;
+    margin-bottom: 25px;
 }
 
 .missao {
-    margin-top: -3.1125rem;
-    margin-left: 1162px;
-    margin-right: -900px;
+    margin-left: 731px;
+    margin-top: -50px;
+    margin-bottom: 25px;
 }
 
+.sobre {
+    margin-left: 1036px;
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.tracinho {
+    width: 100%;
+    height: 0%;
+    margin-bottom: -1420px;
+    background: #BEBEBE;
+}
 /*=================== Main ==========================*/
 main {
-    padding-top: 80px;
-
-    height: 10000px;
+    
 }
 /*=================== FOOTER ==========================*/
 
@@ -158,18 +131,9 @@ main {
 
 @media (min-width: 1920px) {
 
-    nav ul li.outros:hover {
-        position: absolute !important;
-        width: 7.8%;
-    }
     
-    nav ul li.somos:hover{
-        position: absolute !important;
-        width: 7%;
-    }
-    
-    nav ul li.missao:hover{
-        position: absolute !important;
-        width: 8%;
-    }
+}
+
+@media (min-width: 1360) {
+
 }
