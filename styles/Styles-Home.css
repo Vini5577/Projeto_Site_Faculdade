@@ -59,17 +59,30 @@ nav ul li a{
     position: relative;
     display: inline;
     
-    padding: 5px 40px
+    padding: 5px 40px;
+    transition: 0.2s;
 }
 
 
 nav ul li a:hover {
     
     font: 500 19px 'medium', sans-serif;
-    transition: 0.2s;
 
     background-color: #BEBEBE;
     border-radius: 20px;
+}
+
+nav ul li.doenca a{
+    color: black;
+    position: relative;
+    display: inline-block !important;
+    
+    padding: 2px 20px;
+    transition: 0.2s;
+}
+
+nav ul li.doenca a:hover {
+    font: 500 19px 'medium', sans-serif;
 }
 
 .home {
@@ -79,14 +92,14 @@ nav ul li a:hover {
 } 
 
 .doenca {
-    margin-left: 513px;
+    margin-left: 533px;
     margin-top: -50px;
     margin-bottom: 25px;
 }
 
 .missao {
     margin-left: 731px;
-    margin-top: -50px;
+    margin-top: -80px;
     margin-bottom: 25px;
 }
 
@@ -98,29 +111,16 @@ nav ul li a:hover {
 }
 
 .icon-Arrow-1 {
-    align-items: center;
-    margin-left: 575px;
-    margin-top: -20px;
+    margin-left: 25px;
+    margin-top: 5px;
     margin-bottom: 12px;
-}
-
-.toggle:hover {
-    background-color: #BEBEBE;
-    
-}
-
-.menu ul li.doenca:hover>ul.dropdown {
-    display:block;
+    font-size: 15px;
 }
 
 .dropdown {
-    align-items: center;
     text-align: center; 
-    
-}
-
-.dropdown li a{
-    border-bottom: 1px solid #BEBEBE;
+    margin-left: -380px;
+    display: none;
 }
 
 .dropdown li {
@@ -128,15 +128,14 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-.dropdown li a:hover {
-    border-radius: 0 !important;
+.menu li.doenca:hover > .dropdown {
+    display: block;
 }
 
 .tracinho {
+    margin-top: 35px;
     width: 100%;
-    height: 0%;
-    margin-bottom: -1420px;
-    background: #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
 }
 /*=================== Main ==========================*/
 main {
