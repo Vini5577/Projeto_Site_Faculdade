@@ -4,166 +4,131 @@
     box-sizing: border-box;
 }
 
+/*=================== FONTS ==========================*/
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Medium.otf) format('opentype');
+}
+
 /*=================== HEADER ==========================*/
 #header {
     position: absolute;
     width: 100%;
     height: 5rem;
-    position: fixed;
-    
-    background: linear-gradient(90deg, #4E5CBC 22%, rgba(67, 114, 196, 0.97) 79.28%);
+    align-items: center;
+
+    background: white;
 }
 
-.topo img {
-    position: absolute;
-    width: 4.6875rem;
-    height: 2.9375rem;
-    
-    margin-bottom: 45rem;
-    margin-left: 0.6875rem;
-    margin-right: 80rem;
-    margin-top: -0.75rem
-}
-
-
-
-.logo {
-    margin-left: 5.6875rem;
-    margin-right: 10rem;
-    margin-top: 1.5625rem;
-    margin-bottom: 1.8125rem;
-
-    color: white;
-    font: 700 0.9375rem 'Open Sans', sans-serif;
-}
-
-a.home {
+#header .topo a{
     text-decoration: none;
+    color: black;
+}
+
+.logo img{
+    width: 68px;
+    height: 43px;
+    margin-top: 18px;
+    margin-left: 39px; 
+    margin-bottom: 19px;
+}
+
+.menu {
+    display: flex;
+    gap: 115px;
 }
 
 nav {
     align-items: center;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font: 700 1rem 'Open Sans', sans-serif;
-    text-align: center;
-    transition: color 0.2s;
-    position: relative;
+nav ul {
+    margin-left: 328px;
+    margin-top: -60px
 }
-    
+
 nav ul li{
     list-style: none;
-    margin-right: 80px;
+    
+
+    font: 400 19px 'regular', sans-serif;
+
+}
+
+nav ul li a{
+    color: black;
+    position: relative;
     display: inline;
-    float: left;
-}
-
-nav ul li a:hover {
-    color: #4D61BE;
     
-}
-
-nav ul li a::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #4D61BE;
-    
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-
+    padding: 5px 30px;
     transition: 0.2s;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
+
+nav ul li a:hover {
+    
+    font: 500 19px 'medium', sans-serif;
+
+    background-color: #BEBEBE;
+    border-radius: 20px;
 }
 
-nav ul li {
+nav ul li.doenca a{
+    color: black;
     position: relative;
+    display: inline-block !important;
+    
+    
+    transition: 0.2s;
 }
 
-nav ul li:hover{
-    content: '';
-    background: white;
+nav ul li.doenca a:hover {
+    font: 500 19px 'medium', sans-serif;
+}
 
+.doenca {
+    margin-top: -5px;
+}
+
+.icon-Arrow-1 {
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.dropdown {
     position: absolute;
-    padding-top: 0.1875rem;
-    padding-bottom: 0.6875rem;
-    padding-left: 0.625rem;
-    padding-right: 0.5625rem;
+    text-align: center; 
+    margin-left: -35px;
+    margin-top: -5px;
+    display: none;
 }
 
-nav ul li.outros a {
-    color: #4D61BE;
+.dropdown li {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-nav ul li.outros {
-    background: white;
-    
+.menu li.doenca:hover > .dropdown {
+    display: block;
+}
+
+.tracinho {
+    width: 100%;
+    border-bottom: 1px solid #BEBEBE;
     position: absolute;
-    
-    padding-left: 0.625rem;
-    padding-right: 0.5625rem;
+    margin-top: 5px;
 }
-
-nav ul li.outros:hover {
-    position: absolute !important;
-    width: 11%;
-}
-
-nav ul li.somos:hover{
-    position: absolute !important;
-    width: 9.8%;
-}
-
-nav ul li.missao:hover{
-    position: absolute !important;
-    width: 11.4%;
-}
-
-.hiv {
-    margin-top: -49.0px;
-    margin-left: 290px;
-    margin-right: 51.75rem;
-}
-
-.malaria {
-    margin-left: 442px;
-    margin-right: 1004px;
-    margin-top: -3.1125rem;
-}
-
-.tuberculose {
-    margin-top: -3.1125rem;
-    margin-left: 584px;
-    margin-right: 684px;
-}
-
-.outros {
-    margin-top: -3.1125rem;
-    margin-left:  762px;
-}
-
-.somos {
-    margin-top: -3.1125rem;
-    margin-left: 969px;
-    
-}
-
-.missao {
-    margin-top: -3.1125rem;
-    margin-left: 1162px;
-    margin-right: -900px;
-}
-
 /*=================== Main ==========================*/
 main {
-    padding-top: 80px;
+    
 }
 /*=================== FOOTER ==========================*/
 
@@ -171,18 +136,9 @@ main {
 
 @media (min-width: 1920px) {
 
-    nav ul li.outros:hover {
-        position: absolute !important;
-        width: 7.8%;
-    }
     
-    nav ul li.somos:hover{
-        position: absolute !important;
-        width: 7%;
-    }
-    
-    nav ul li.missao:hover{
-        position: absolute !important;
-        width: 8%;
-    }
+}
+
+@media (min-width: 1360) {
+
 }

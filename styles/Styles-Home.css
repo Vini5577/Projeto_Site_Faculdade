@@ -91,21 +91,8 @@ nav ul li.doenca a:hover {
     font: 500 19px 'medium', sans-serif;
 }
 
-.home {
-  
-} 
-
 .doenca {
     margin-top: -5px;
-}
-
-.missao {
-    
-
-}
-
-.sobre {
-    display: block
 }
 
 .icon-Arrow-1 {
@@ -137,6 +124,7 @@ nav ul li.doenca a:hover {
     width: 100%;
     border-bottom: 1px solid #BEBEBE;
     position: absolute;
+    margin-top: 5px;
 }
 /*=================== Main ==========================*/
 main {
