@@ -133,6 +133,7 @@ nav ul li.doenca a:hover {
     border-bottom: solid 0.1px #00000015;
     border-left: solid 0.1px #00000015;
     border-right: solid 0.1px #00000015;
+    box-shadow: 0px 1px 3px 1px #00000015;
 }
 
 .menu li.doenca:hover > .dropdown {
