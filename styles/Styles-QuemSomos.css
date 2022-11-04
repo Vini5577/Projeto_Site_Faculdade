@@ -91,22 +91,14 @@ nav ul li.doenca a:hover {
     font: 500 19px 'medium', sans-serif;
 }
 
-.home {
-  
-} 
-
 .doenca {
     margin-top: -5px;
 }
 
-.missao {
-    
-
-}
-
 .sobre {
-    display: block
-}
+    position: absolute;
+    margin-left: 780px;
+  }
 
 .icon-Arrow-1 {
     margin-left: 25px;
@@ -129,6 +121,10 @@ nav ul li.doenca a:hover {
     margin-bottom: 10px;
 }
 
+.drop-quadro {
+    background: #f7f3f3;
+}
+
 .menu li.doenca:hover > .dropdown {
     display: block;
 }
@@ -137,6 +133,7 @@ nav ul li.doenca a:hover {
     width: 100%;
     border-bottom: 1px solid #BEBEBE;
     position: absolute;
+    margin-top: 5px;
 }
 /*=================== Main ==========================*/
 main {

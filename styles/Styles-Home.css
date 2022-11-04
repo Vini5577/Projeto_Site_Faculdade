@@ -95,6 +95,11 @@ nav ul li.doenca a:hover {
     margin-top: -5px;
 }
 
+.sobre {
+  position: absolute;
+  margin-left: 780px;
+}
+
 .icon-Arrow-1 {
     margin-left: 25px;
     margin-top: 5px;
@@ -116,6 +121,10 @@ nav ul li.doenca a:hover {
     margin-bottom: 10px;
 }
 
+.drop-quadro {
+    background: #f7f3f3;
+}
+
 .menu li.doenca:hover > .dropdown {
     display: block;
 }
@@ -126,6 +135,7 @@ nav ul li.doenca a:hover {
     position: absolute;
     margin-top: 5px;
 }
+
 /*=================== Main ==========================*/
 main {
     
