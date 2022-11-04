@@ -160,9 +160,8 @@ main {
 
 @media (min-width: 1920px) {
 
+    .menu {
+        margin-left: 500px;
+    }
     
-}
-
-@media (min-width: 1360) {
-
 }
