@@ -74,7 +74,7 @@ nav ul li a:hover {
     
     font: 500 19px 'medium', sans-serif;
 
-    background-color: #BEBEBE;
+    background-color: #EEEEEE;
     border-radius: 20px;
 }
 
@@ -100,6 +100,13 @@ nav ul li.doenca a:hover {
     margin-left: 780px;
   }
 
+.sobre a {
+    font: 500 19px 'medium', sans-serif;
+
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
 .icon-Arrow-1 {
     margin-left: 25px;
     margin-top: 5px;
@@ -122,7 +129,10 @@ nav ul li.doenca a:hover {
 }
 
 .drop-quadro {
-    background: #f7f3f3;
+    border-radius: 20px;
+    border-bottom: solid 0.1px #00000015;
+    border-left: solid 0.1px #00000015;
+    border-right: solid 0.1px #00000015;
 }
 
 .menu li.doenca:hover > .dropdown {
