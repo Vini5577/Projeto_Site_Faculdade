@@ -5,6 +5,7 @@
 }
 
 /*=================== FONTS ==========================*/
+
 @font-face {
     font-family: 'regular';
     src: url(../fonts/MADEOkineSansPERSONALUSE-Regular.otf) format('opentype');
@@ -20,6 +21,7 @@
     src: url(../fonts/MADEOkineSansPERSONALUSE-Thin.otf) format('opentype');
 }
 /*=================== HEADER ==========================*/
+
 #header {
     position: absolute;
     width: 100%;
@@ -153,6 +155,7 @@ nav ul li.doenca a:hover {
 }
 
 /*=================== Main ==========================*/
+
 main {
     padding-top: 95px;
     align-items: center;
@@ -198,19 +201,45 @@ section.card img:hover {
     transform: translateY(-3px);
 }
 
-p {
+p.topo {
     text-align: center;
     transform: translateY(395px);
     margin-top: 298px;
 }
 
-p a {
+p.topo a {
     text-decoration: none;
     font-family: 'thin';
     color: black;
     font-size: 25px
 }
 /*=================== FOOTER ==========================*/
+
+footer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 115px;
+    margin-top: 410px;
+}
+
+p.direitos {
+    padding-top: 46px;
+    margin-left: 115px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+.social {
+    margin-left: 900px;
+    margin-top: -16px;
+}
 
 /*=================== RESPUSIVIDADE  ==========================*/
 
