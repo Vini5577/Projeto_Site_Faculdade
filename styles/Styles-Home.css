@@ -15,6 +15,10 @@
     src: url(../fonts/MADEOkineSansPERSONALUSE-Medium.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'thin';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Thin.otf) format('opentype');
+}
 /*=================== HEADER ==========================*/
 #header {
     position: absolute;
@@ -150,9 +154,62 @@ nav ul li.doenca a:hover {
 
 /*=================== Main ==========================*/
 main {
-    padding-top: 95px
+    padding-top: 95px;
+    align-items: center;
 }
 
+main h1 {
+    font-family: 'regular';
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 164px;
+}
+
+section, h1 {
+    text-align: center;
+}
+
+section.cards {
+   display: inline-block;
+   margin-left: 0px;
+   
+}
+
+section.cards img {
+    width: 250px;
+    margin-left: 150px;
+    transition: 0.2s;
+}
+
+section.cards img:hover {
+    transform: translateY(-5px);
+}
+
+section.card {
+    position: absolute;
+    text-align: center;
+    width: 240px;
+    margin-left: 90px;
+    margin-top: 149px;
+    transition: 0.2s;
+}
+
+section.card img:hover {
+    transform: translateY(-3px);
+}
+
+p {
+    text-align: center;
+    transform: translateY(395px);
+    margin-top: 298px;
+}
+
+p a {
+    text-decoration: none;
+    font-family: 'thin';
+    color: black;
+    font-size: 25px
+}
 /*=================== FOOTER ==========================*/
 
 /*=================== RESPUSIVIDADE  ==========================*/
