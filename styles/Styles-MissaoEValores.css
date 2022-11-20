@@ -196,6 +196,14 @@ p.topo a {
     font-size: 25px
 }
 
+.social a {
+    color: black;
+}
+
+.social a i:hover {
+    transform: translateY(-4px);
+}
+
 /*=================== FOOTER ==========================*/
 
 footer {
