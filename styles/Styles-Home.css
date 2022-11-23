@@ -70,7 +70,7 @@ nav ul li a{
     color: black;
     position: relative;
     display: inline;
-    
+    text-align: center;
     padding: 5px 30px;
     transition: 0.2s;
 }
@@ -84,19 +84,6 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-nav ul li.doenca a{
-    color: black;
-    position: relative;
-    display: inline-block !important;
-    
-    
-    transition: 0.2s;
-}
-
-nav ul li.doenca a:hover {
-    font: 500 19px 'medium', sans-serif;
-}
-
 .home a{
     font: 500 19px 'medium', sans-serif;
 
@@ -104,54 +91,16 @@ nav ul li.doenca a:hover {
     border-radius: 20px;
 }
 
-.doenca {
-    margin-top: -5px;
-}
-
 .sobre {
   position: absolute;
-  margin-left: 780px;
-}
-
-.icon-Arrow-1 {
-    margin-left: 25px;
-    margin-top: 5px;
-    margin-bottom: 12px;
-    font-size: 15px;
-}
-
-.dropdown {
-    position: absolute;
-    text-align: center; 
-    margin-left: -35px;
-    margin-top: -5px;
-    display: none;
-    box-shadow: 0px 1px 3px 1px #00000015;
-}
-
-.dropdown li {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.drop-quadro {
-    border-radius: 20px;
-    border-bottom: solid 0.1px #00000015;
-    border-left: solid 0.1px #00000015;
-    border-right: solid 0.1px #00000015;
-    box-shadow: 0px 1px 3px 1px #00000015;
-}
-
-.menu li.doenca:hover > .dropdown {
-    display: block;
+  margin-left: 550px;
 }
 
 .tracinho {
     width: 100%;
     border-bottom: 1px solid #BEBEBE;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 /*=================== Main ==========================*/
@@ -176,6 +125,21 @@ section.cards {
    display: inline-block;
    margin-left: 0px;
    
+}
+
+input {
+    text-align: center;
+    width: 970px;
+    height: 65px;
+    margin-left: 233px;
+}
+
+.botao {
+    margin: auto;
+    text-align: center;
+    background: #C2C2C2;
+    width: 250px;
+    height: 50px;
 }
 
 section.cards img {
@@ -203,7 +167,6 @@ section.card img:hover {
 
 p.topo {
     text-align: center;
-    transform: translateY(395px);
     margin-top: 298px;
 }
 
@@ -214,20 +177,12 @@ p.topo a {
     font-size: 25px
 }
 
-.social a {
-    color: black;
-}
-
-.social a i:hover {
-    transform: translateY(-4px);
-}
 /*=================== FOOTER ==========================*/
 
 footer {
     background-color: #D9D9D9;
     width: 100%;
     height: 115px;
-    margin-top: 410px;
 }
 
 p.direitos {
@@ -238,6 +193,13 @@ p.direitos {
     font-size: 16px;
 }
 
+.social a {
+    color: black;
+}
+
+.social a i:hover {
+    transform: translateY(-4px);
+}
 .icon {
     display: inline-block;
     margin-left: 24px;
