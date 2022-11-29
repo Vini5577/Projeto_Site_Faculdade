@@ -157,8 +157,87 @@ main {
     padding-top: 95px
 }
 
-/*=================== FOOTER ==========================*/
+.img {
+    margin-top: 150px;
+    margin-left: 150px; 
+}
 
+.container {
+    width: 100%;
+    max-width: 75rem;
+    margin-left: 190px;
+    padding: 0 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.accordion-item {
+    background-color: #D9D9D9;
+    margin-bottom: 21px;
+    padding: 1rem 0;
+    border-radius: 20px;
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, 0.082);
+}
+
+.accordion-link {
+    text-decoration: none;
+    font: 400 25px 'Regular', sans-serif;
+    color: black;
+}
+
+.answer {
+    font: 400 15px 'regula', sans-serif;
+    font-style: normal;
+    text-align: justify;
+    padding: 41px;
+    display: none;
+    transition: 650ms;
+}
+
+.answer p {
+    color: black;
+}
+
+.accordion-item:target .answer {
+    display: block;
+}
+
+.accordion-item:target {
+    background: linear-gradient(180deg, rgba(149, 149, 149, 0.54) 0%, rgba(217, 217, 217, 0.135) 100%);
+}
+
+/*=================== FOOTER ==========================*/
+footer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 115px;
+}
+
+p.direitos {
+    padding-top: 46px;
+    margin-left: 115px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.social a {
+    color: black;
+}
+
+.social a i:hover {
+    transform: translateY(-4px);
+}
+.icon {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+.social {
+    margin-left: 900px;
+    margin-top: -16px;
+}
 /*=================== RESPUSIVIDADE  ==========================*/
 
 @media (min-width: 1920px) {
