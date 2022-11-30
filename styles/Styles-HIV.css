@@ -203,10 +203,35 @@ main {
     padding: 41px;
     display: none;
     transition: 650ms;
+    height: 309px;
+    overflow-y: scroll;
 }
+
+.answer::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.answer::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #B9B9B9 0%, rgba(185, 185, 185, 0.25) 100%);    
+    border-radius: 20px;   
+  }
+  
+.answer::-webkit-scrollbar-thumb {
+    background-color: #858585;   
+    border-radius: 20px;       
+  }
 
 .answer p {
     color: black;
+}
+
+.answer p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.answer p a:hover {
+    color:rgba(0, 0, 255, 0.596);
 }
 
 .accordion-item:target .answer {
