@@ -157,7 +157,6 @@ nav ul li.doenca a:hover {
     margin-top: 5px;
 }
 
-
 /*=================== Main ==========================*/
 main {
     padding-top: 95px
@@ -223,6 +222,31 @@ main {
 
 .answer p {
     color: black;
+}
+
+.answer p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.answer .important {
+    background-color: #BEBEBE;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.answer .bold {
+    color:#272626;
+}
+
+.answer p a:hover {
+    color:rgba(0, 0, 255, 0.596);
+}
+
+th, td {
+    border-bottom: 1px solid #BEBEBE;
+    padding: 5px;
+    text-align: center;
 }
 
 .accordion-item:target .answer {
