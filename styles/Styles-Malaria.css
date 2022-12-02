@@ -229,6 +229,10 @@ main {
     text-decoration: none;
     color: blue;
 }
+.azul {
+    text-decoration: none;
+    color: blue;
+}
 
 .answer .important {
     background-color: #BEBEBE;
