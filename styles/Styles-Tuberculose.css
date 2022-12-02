@@ -368,6 +368,43 @@ p.direitos {
 
 /*=================== RESPUSIVIDADE  ==========================*/
 
+@media (min-width: 1440px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    /*============= main ================*/
+    .img {
+        text-align: center;
+    }
+
+    .img img {
+        width: 100%;
+        width: 1249px;
+    }
+
+    .container {
+        margin-left: 152px
+    }
+
+    .fontes {
+        margin-left: 175px;
+    }
+    
+    input {
+        margin-left: 235px;
+        margin-right: 235px;
+    }
+
+    .button {
+        margin-left: 610px;
+    }
+
+    .social {
+        margin-left: 1000px;
+       }
+}
+
 @media (min-width: 1920px) {
 
     /*============= header ================*/

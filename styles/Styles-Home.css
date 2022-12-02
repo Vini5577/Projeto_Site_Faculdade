@@ -236,6 +236,31 @@ p.direitos {
 
 /*=================== RESPUSIVIDADE  ==========================*/
 
+/*===== 1440 ====*/
+@media (min-width: 1440px) {
+  
+    /*============= main ================*/
+
+    
+    .button {
+        margin-left: 620px;
+    }
+
+    section.cards {
+        display: inline-block;
+        margin-left: 160px;
+        }
+    
+       section.cards img {
+        margin-left: 10px;
+       }
+
+       .social {
+        margin-left: 1000px;
+       }
+}
+
+/*==== 1920 ==== */
 @media (min-width: 1920px) {
 
     /*============= header ================*/
@@ -265,7 +290,6 @@ p.direitos {
     }
 
    section.cards img {
-
     margin-left: 350px;
    }
 }
