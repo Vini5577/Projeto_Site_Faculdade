@@ -165,7 +165,7 @@ main {
 
 .img {
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 140px;
 }
 
 .img  img {
@@ -176,7 +176,7 @@ main {
 .container {
     width: 100%;
     max-width: 72rem;
-    margin-left: 130px;
+    margin-left: 110px;
     padding: 0 1.5rem;
     text-align: center;
     margin-top: 20px;
@@ -289,7 +289,7 @@ input {
     text-align: center;
     width: 970px;
     height: 65px;
-    margin-left: 230px;
+    margin-left: 220px;
     font: 400 20px 'Regular', sans-serif;
     color: #BBBBBB;
     background: #F5F5F5;
@@ -302,7 +302,7 @@ input {
     background-color: #D9D9D9;
     display: inline-flex;
     align-items: center;
-    margin-left: 600px;
+    margin-left: 575px;
     margin-top: 20px;
     padding: 10px 50px;
     border-radius: 0.25rem;
