@@ -164,18 +164,17 @@ main {
 
 .img {
     margin-top: 150px;
-    margin-left: 140px;
+    text-align: center;
 }
 
 .img  img {
-    width: 100%;
-    max-width: 1100px;
-    align-items: center;
+    width: 1100px;
+   
 }
 
 .container {
     width: 100%;
-    max-width: 72rem;
+    width: 71rem;
     margin-left: 110px;
     padding: 0 1.5rem;
     text-align: center;
@@ -293,7 +292,7 @@ input {
     text-align: center;
     width: 970px;
     height: 65px;
-    margin-left: 220px;
+    margin-left: 230px;
     font: 400 20px 'Regular', sans-serif;
     color: #BBBBBB;
     background: #F5F5F5;
@@ -306,7 +305,7 @@ input {
     background-color: #D9D9D9;
     display: inline-flex;
     align-items: center;
-    margin-left: 575px;
+    margin-left: 600px;
     margin-top: 20px;
     padding: 10px 50px;
     border-radius: 0.25rem;
@@ -354,6 +353,7 @@ p.direitos {
 .social a i:hover {
     transform: translateY(-4px);
 }
+
 .icon {
     display: inline-block;
     margin-left: 24px;
@@ -369,8 +369,40 @@ p.direitos {
 
 @media (min-width: 1920px) {
 
+    /*============= header ================*/
     .menu {
         margin-left: 500px;
     }
+
+    /*============= main ================*/
+    .img {
+        text-align: center;
+    }
+
+    .img img {
+        width: 100%;
+        width: 1249px;
+    }
+
+    .container {
+        margin-left: 390px;
+    }
+
+    .fontes {
+        margin-left: 420px;
+    }
+
+    input {
+        margin-left: 500px;
+    }
     
+    .button {
+        margin-left: 860px;
+    }
+    
+   /*============= footer ================*/
+
+   .social {
+    margin-left: 1450px;
+   }
 }
