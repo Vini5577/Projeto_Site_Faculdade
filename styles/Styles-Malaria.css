@@ -345,11 +345,18 @@ p.direitos {
     font-size: 16px;
 }
 
-.social a {
-    color: black;
+.social {
+    grid-auto-flow: column;
+    width: fit-content;
 }
 
-.social a i:hover {
+.social a {
+    color: black;
+    display: inline-block;
+    transform: .3s;
+}
+
+.social a:hover {
     transform: translateY(-4px);
 }
 

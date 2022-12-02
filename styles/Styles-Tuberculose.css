@@ -349,9 +349,11 @@ p.direitos {
 
 .social a {
     color: black;
+    display: inline-block;
+    transform: .3s;
 }
 
-.social a i:hover {
+.social a:hover {
     transform: translateY(-4px);
 }
 
