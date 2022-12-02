@@ -222,6 +222,7 @@ p.direitos {
 .social a i:hover {
     transform: translateY(-4px);
 }
+
 .icon {
     display: inline-block;
     margin-left: 24px;
@@ -237,8 +238,34 @@ p.direitos {
 
 @media (min-width: 1920px) {
 
+    /*============= header ================*/
     .menu {
-        margin-left: 500px;
+        margin-left: 600px;
     }
     
+    /*============= main ================*/
+    
+    input {
+        margin-left: 480px;
+    }  
+
+    .button {
+        margin-left: 850px;
+    }
+
+       /*============= footer ================*/
+
+   .social {
+    margin-left: 1450px;
+   }
+
+   section.cards {
+    display: inline-block;
+    margin-left: -50px;
+    }
+
+   section.cards img {
+
+    margin-left: 350px;
+   }
 }

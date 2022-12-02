@@ -20,6 +20,11 @@
     src: url(..//fonts/MADEOkineSansPERSONALUSE-Light.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'thin';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Thin.otf) format('opentype');
+}
+
 /*=================== HEADER ==========================*/
 #header {
     position: absolute;
@@ -122,7 +127,7 @@ nav ul li.doenca a:hover {
 .dropdown {
     position: absolute;
     text-align: center; 
-    margin-left: -35px;
+    margin-left: -20px;
     margin-top: -5px;
     width: 175px;
     display: none;
@@ -237,8 +242,30 @@ p.direitos {
 
 @media (min-width: 1920px) {
 
+    /*============= header ================*/
     .menu {
-        margin-left: 500px;
+        margin-left: 600px;
     }
-    
+
+     /*============= header ================*/
+    .texto1 {
+        margin-left: 218px;
+    }
+
+    /*============= footer ================*/
+
+   .social {
+    margin-left: 1450px;
+   }
+
+   section.cards {
+    display: inline-block;
+    margin-left: -50px;
+    }
+
+   section.cards img {
+
+    margin-left: 350px;
+   }
+
 }
