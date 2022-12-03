@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?aoamsg');
-  src:  url('fonts/icomoon.eot?aoamsg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?aoamsg') format('truetype'),
-    url('fonts/icomoon.woff?aoamsg') format('woff'),
-    url('fonts/icomoon.svg?aoamsg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?f1so67');
+  src:  url('fonts/icomoon.eot?f1so67#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?f1so67') format('truetype'),
+    url('fonts/icomoon.woff?f1so67') format('woff'),
+    url('fonts/icomoon.svg?f1so67#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,23 +26,23 @@
 }
 
 .icon-Arrow-1:before {
-  content: "\e906";
-}
-.icon-Social-icon:before {
   content: "\e900";
 }
-.icon-Social-icon-1:before {
+.icon-Github:before {
   content: "\e901";
 }
-.icon-Social-icon-2:before {
+.icon-Twitter:before {
   content: "\e902";
 }
-.icon-Social-icon-3:before {
+.icon-Linkendin:before {
   content: "\e903";
 }
-.icon-Social-icon-4:before {
+.icon-Facebook:before {
   content: "\e904";
 }
-.icon-Social-icon-5:before {
+.icon-Vector-3:before {
   content: "\e905";
+}
+.icon-Vector-4:before {
+  content: "\e906";
 }

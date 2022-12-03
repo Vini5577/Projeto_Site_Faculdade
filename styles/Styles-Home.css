@@ -5,6 +5,7 @@
 }
 
 /*=================== FONTS ==========================*/
+
 @font-face {
     font-family: 'regular';
     src: url(../fonts/MADEOkineSansPERSONALUSE-Regular.otf) format('opentype');
@@ -15,7 +16,17 @@
     src: url(../fonts/MADEOkineSansPERSONALUSE-Medium.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'thin';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'black';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Black.otf) format('opentype');
+}
 /*=================== HEADER ==========================*/
+
 #header {
     position: absolute;
     width: 100%;
@@ -40,7 +51,7 @@
 
 .menu {
     display: flex;
-    gap: 115px;
+    gap: 150px;
 }
 
 nav {
@@ -64,7 +75,7 @@ nav ul li a{
     color: black;
     position: relative;
     display: inline;
-    
+    text-align: center;
     padding: 5px 30px;
     transition: 0.2s;
 }
@@ -78,19 +89,6 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-nav ul li.doenca a{
-    color: black;
-    position: relative;
-    display: inline-block !important;
-    
-    
-    transition: 0.2s;
-}
-
-nav ul li.doenca a:hover {
-    font: 500 19px 'medium', sans-serif;
-}
-
 .home a{
     font: 500 19px 'medium', sans-serif;
 
@@ -98,69 +96,204 @@ nav ul li.doenca a:hover {
     border-radius: 20px;
 }
 
-.doenca {
-    margin-top: -5px;
-}
-
 .sobre {
-  position: absolute;
-  margin-left: 780px;
-}
-
-.icon-Arrow-1 {
-    margin-left: 25px;
-    margin-top: 5px;
-    margin-bottom: 12px;
-    font-size: 15px;
-}
-
-.dropdown {
     position: absolute;
-    text-align: center; 
-    margin-left: -35px;
-    margin-top: -5px;
-    display: none;
-    box-shadow: 0px 1px 3px 1px #00000015;
-}
-
-.dropdown li {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.drop-quadro {
-    border-radius: 20px;
-    border-bottom: solid 0.1px #00000015;
-    border-left: solid 0.1px #00000015;
-    border-right: solid 0.1px #00000015;
-    box-shadow: 0px 1px 3px 1px #00000015;
-}
-
-.menu li.doenca:hover > .dropdown {
-    display: block;
+    margin-left: 580px; 
 }
 
 .tracinho {
     width: 100%;
     border-bottom: 1px solid #BEBEBE;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 /*=================== Main ==========================*/
+
 main {
-    padding-top: 95px
+    padding-top: 95px;
+    align-items: center;
+}
+
+main h1 {
+    font-family: 'regular';
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 164px;
+}
+
+section, h1 {
+    text-align: center;
+}
+
+section.cards {
+   display: inline-block;
+   margin-left: 0px;
+   
+}
+
+input {
+    text-align: center;
+    width: 970px;
+    height: 65px;
+    margin-left: 233px;
+    font: 400 20px 'Regular', sans-serif;
+    color: #BBBBBB;
+    background: #F5F5F5;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    background-color: #D9D9D9;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 593px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: black;
+    font: 900 20px 'black', sans-serif;
+    color: #747474;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+    color: black;
+}
+
+section.cards img {
+    width: 250px;
+    margin-left: 150px;
+    transition: 0.2s;
+}
+
+section.cards img:hover {
+    transform: translateY(-5px);
+}
+
+section.card {
+    position: absolute;
+    text-align: center;
+    width: 240px;
+    margin-left: 90px;
+    margin-top: 149px;
+    transition: 0.2s;
+}
+
+section.card img:hover {
+    transform: translateY(-3px);
+}
+
+p.topo {
+    text-align: center;
+    margin-top: 298px;
+}
+
+p.topo a {
+    text-decoration: none;
+    font-family: 'thin';
+    color: black;
+    font-size: 25px
 }
 
 /*=================== FOOTER ==========================*/
 
+footer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 115px;
+}
+
+p.direitos {
+    padding-top: 46px;
+    margin-left: 115px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.social a {
+    color: black;
+    display: inline-block;
+    transform: .3s;
+}
+
+.social a:hover {
+    transform: translateY(-4px);
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+.social {
+    margin-left: 900px;
+    margin-top: -16px;
+    grid-auto-flow: column;
+    width: fit-content;
+}
+
 /*=================== RESPUSIVIDADE  ==========================*/
 
+/*===== 1440 ====*/
+@media (min-width: 1440px) {
+  
+    /*============= main ================*/
+
+    
+    .button {
+        margin-left: 620px;
+    }
+
+    section.cards {
+        display: inline-block;
+        margin-left: 160px;
+        }
+    
+       section.cards img {
+        margin-left: 10px;
+       }
+
+       .social {
+        margin-left: 1000px;
+       }
+}
+
+/*==== 1920 ==== */
 @media (min-width: 1920px) {
 
+    /*============= header ================*/
     .menu {
-        margin-left: 500px;
+        margin-left: 600px;
     }
     
+    /*============= main ================*/
+    
+    input {
+        margin-left: 480px;
+    }  
+
+    .button {
+        margin-left: 850px;
+    }
+
+       /*============= footer ================*/
+
+   .social {
+    margin-left: 1450px;
+   }
+
+   section.cards {
+    display: inline-block;
+    margin-left: -50px;
+    }
+
+   section.cards img {
+    margin-left: 350px;
+   }
 }

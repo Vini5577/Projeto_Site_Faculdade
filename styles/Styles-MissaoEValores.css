@@ -15,6 +15,16 @@
     src: url(../fonts/MADEOkineSansPERSONALUSE-Medium.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'light';
+    src: url(..//fonts/MADEOkineSansPERSONALUSE-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'thin';
+    src: url(../fonts/MADEOkineSansPERSONALUSE-Thin.otf) format('opentype');
+}
+
 /*=================== HEADER ==========================*/
 #header {
     position: absolute;
@@ -40,7 +50,7 @@
 
 .menu {
     display: flex;
-    gap: 115px;
+    gap: 150px;
 }
 
 nav {
@@ -64,7 +74,7 @@ nav ul li a{
     color: black;
     position: relative;
     display: inline;
-    
+    text-align: center;
     padding: 5px 30px;
     transition: 0.2s;
 }
@@ -78,23 +88,6 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-nav ul li.doenca a{
-    color: black;
-    position: relative;
-    display: inline-block !important;
-    
-    
-    transition: 0.2s;
-}
-
-nav ul li.doenca a:hover {
-    font: 500 19px 'medium', sans-serif;
-}
-
-.doenca {
-    margin-top: -5px;
-}
-
 .missao a{
     font: 500 19px 'medium', sans-serif;
 
@@ -104,47 +97,14 @@ nav ul li.doenca a:hover {
 
 .sobre {
     position: absolute;
-    margin-left: 780px;
-  }
-
-.icon-Arrow-1 {
-    margin-left: 25px;
-    margin-top: 5px;
-    margin-bottom: 12px;
-    font-size: 15px;
-}
-
-.dropdown {
-    position: absolute;
-    text-align: center; 
-    margin-left: -35px;
-    margin-top: -5px;
-    display: none;
-}
-
-.dropdown li {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.drop-quadro {
-    border-radius: 20px;
-    border-bottom: solid 0.1px #00000015;
-    border-left: solid 0.1px #00000015;
-    border-right: solid 0.1px #00000015;
-    box-shadow: 0px 1px 3px 1px #00000015;
-}
-
-.menu li.doenca:hover > .dropdown {
-    display: block;
+    margin-left: 580px; 
 }
 
 .tracinho {
     width: 100%;
     border-bottom: 1px solid #BEBEBE;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 /*=================== Main ==========================*/
@@ -152,14 +112,117 @@ main {
     padding-top: 95px
 }
 
+.titulo {
+    text-align: center;
+    margin-top: 219px;
+    font-family: 'regular', sans-serif;
+    font-size: 40px;
+}
+
+.texto {
+    font-family: 'light', sans-serif;
+    font-size: 20px;
+    margin-left: 218px;
+}
+
+.txt1 {
+    margin-top: 61px;
+}
+
+.valor {
+    margin-left: 245px;
+}
+
+ul.valor li {
+    font-family: 'light', sans-serif; 
+    font-size: 20px;
+}
+
+p.topo {
+    text-align: center;
+    transform: translateY(395px);
+    margin-top: 298px;
+}
+
+p.topo a {
+    text-decoration: none;
+    font-family: 'thin';
+    color: black;
+    font-size: 25px
+}
+
 /*=================== FOOTER ==========================*/
+
+footer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 115px;
+    margin-top: 395px;
+}
+
+p.direitos {
+    padding-top: 46px;
+    margin-left: 115px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.social a {
+    color: black;
+    display: inline-block;
+    transform: .3s;
+}
+
+.social a:hover {
+    transform: translateY(-4px);
+}
+
+.icon {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 24px; 
+}
+
+.social {
+    margin-left: 900px;
+    margin-top: -16px;
+}
 
 /*=================== RESPUSIVIDADE  ==========================*/
 
+@media (min-width: 1444px) {
+    .social {
+        margin-left: 1000px;
+       }
+}
+
 @media (min-width: 1920px) {
 
+    /*============= header ================*/
     .menu {
-        margin-left: 500px;
+        margin-left: 600px;
     }
-    
+
+     /*============= header ================*/
+    .texto1 {
+        margin-left: 218px;
+    }
+
+    /*============= footer ================*/
+
+   .social {
+    margin-left: 1450px;
+   }
+
+   section.cards {
+    display: inline-block;
+    margin-left: -50px;
+    }
+
+   section.cards img {
+
+    margin-left: 350px;
+   }
+
 }

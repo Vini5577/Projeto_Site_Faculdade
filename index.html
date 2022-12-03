@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/Styles-Home.css">
     <link rel="stylesheet" href="icons/style.css">
     <title>Fox Tech Saúde | HOME</title>
@@ -18,17 +21,6 @@
             <a class="logo"href="index.html"><img src="img/Fox tech logo.png" alt="logo fox tech"></a>
             <ul class="menu">
                 <li class="home"><a href="index.html">Home</a></li>
-                <li class="doenca">
-                    <a href="#">Doenças<div class="icon-Arrow-1"></div></a>
-                    <ul class="dropdown">
-                        <div class="drop-quadro">
-                        <li><a href="pages/HIV.html">HIV/AIDS</a></li>
-                        <li><a href="pages/Malaria.html">Malária</a></li>
-                        <li><a href="pages/Tuberculose.html">Tuberculose</a></li>
-                        <li><a href="pages/OutrasDoencas.html">Outras doenças</a></li>
-                        </div>
-                    </ul>    
-                </li>
                 <li class="missao"><a href="pages/MissaoEValores.html">Missão e Valores</a></li>
                 <li class="sobre"><a href="pages/QuemSomos.html">Sobre nós</a></li>
             </ul>
@@ -37,9 +29,45 @@
         
         <div class="tracinho"></div>
     </header>
+
     <main>
+        <h1>Navegue pelos dados de Saúde do SUS</h1>
+
+       <input type="text" id="busca" placeholder="Digite uma doença para pesquisar..."><br>
+      
+        <a class="button" href="#">BUSCAR</a>
+        
+        <h1 class="text">Doenças mais acessadas</h1>
+        
+        <section class="cards">
+           <a href="pages/HIV.html" alt="hiv"><img src="img/home/hiv.svg" alt="hiv"></a>
+        </section>
+
+        <section class="cards">
+           <a href="pages/Tuberculose.html" alt="tuberculose"><img src="img/home/tuberculose.svg" alt="tuberculose"></a>
+        </section>
+
+        <section class="cards">
+            <a href="pages/Malaria.html" alt=""><img src="img/home/malaria.svg" alt="malaria"></a>
+        </section>
+
+        <p class="topo">
+            <a href="#header">Volta ao topo</a>
+        </p>
     </main>
 
 
+    <footer>
+        <p class="direitos">© 2022 FoxTech. Todos direitos reservados.</p>
+        
+        <div class="social">
+            <a href="#"><i class="icon-Twitter icon"></i></a>
+            <a href="#"><i class="icon-Linkendin icon"></i></a>
+            <a href="#"><i class="icon-Facebook icon"></i></a>
+            <a href="https://github.com/G6-foxTech"><i class="icon-Github icon"></i></a>
+            <a href="#"><i class="icon-Vector-3 icon"></i></a>
+            <a href="#"><i class="icon-Vector-4 icon"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
