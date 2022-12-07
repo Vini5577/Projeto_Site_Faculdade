@@ -260,10 +260,22 @@ th, td {
     width: 650px;
 }
 
+.background-circle {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid white
+}
+
 .spinner1 {
     border: 10px solid #c6b6db;
     border-left-color: #987bd8c5;
     border-radius: 100%;
+    margin-top: 9px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 9px;
     height: 180px;
     width: 180px;
 }
