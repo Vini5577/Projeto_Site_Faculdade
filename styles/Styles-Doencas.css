@@ -255,6 +255,11 @@ th, td {
     background: linear-gradient(180deg, rgba(149, 149, 149, 0.54) 0%, rgba(217, 217, 217, 0.135) 100%);
 }
 
+.banco {
+    width: 100%;
+    width: 650px;
+}
+
 .spinner1 {
     border: 10px solid #c6b6db;
     border-left-color: #987bd8c5;
