@@ -222,9 +222,22 @@ main {
     color: black;
 }
 
-.answer p a {
+.azul {
     text-decoration: none;
     color: blue;
+}
+
+.azul:hover {
+    color:rgba(0, 0, 255, 0.596);
+}
+
+.answer p li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.answer p a:hover {
+    color:rgba(0, 0, 255, 0.596);
 }
 
 .answer .important {
@@ -237,9 +250,6 @@ main {
     color:#272626;
 }
 
-.answer p a:hover {
-    color:rgba(0, 0, 255, 0.596);
-}
 
 th, td {
     border-bottom: 1px solid #BEBEBE;
