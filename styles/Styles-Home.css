@@ -199,6 +199,10 @@ p.topo a {
     font-size: 25px
 }
 
+p.topo a:hover {
+    font: 700 25px 'thin', sans-serif;
+}
+
 /*=================== FOOTER ==========================*/
 
 footer {
@@ -282,8 +286,7 @@ p.direitos {
         margin-left: 850px;
     }
 
-       /*============= footer ================*/
-
+    /*============= footer ================*/
    .social {
     margin-left: 1450px;
    }
