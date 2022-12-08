@@ -388,6 +388,10 @@ p.topo a {
     color: black;  
 }
 
+p.topo a:hover {
+    font: 700 25px 'thin', sans-serif;
+}
+
 /*=================== FOOTER ==========================*/
 footer {
     background-color: #D9D9D9;

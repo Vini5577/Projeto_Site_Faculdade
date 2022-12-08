@@ -151,6 +151,10 @@ p.topo a {
     font-size: 25px
 }
 
+p.topo a:hover {
+    font: 700 25px 'thin', sans-serif;
+}
+
 /*=================== FOOTER ==========================*/
 
 footer {
